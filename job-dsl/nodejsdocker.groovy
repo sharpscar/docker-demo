@@ -15,7 +15,7 @@ job('NodeJS Docker example'){
     steps{
         dockerBuildAndPublish{
             repositoryName('sharpscar/docker-nodejs-demo')
-            tag('${BUILD_TIMESTAMP}-${GIT_REVISION,length=7}')
+            tag('I do not know what to write? ')
             registryCredentials('dockerhub')
             forcePull(false)
             forceTag(false)

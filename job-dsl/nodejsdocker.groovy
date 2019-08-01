@@ -1,6 +1,6 @@
 job('NodeJS Docker example'){
     scm {
-        git('https://github.com/sharpscar/simple_node_helloworld.git'){
+        git('https://github.com/sharpscar/docker-demo.git'){
             node / gitConfigName('sharpscar')
             node / gitConfigEmail('sharpscar@gmail.com')
         }
